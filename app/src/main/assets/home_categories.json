@@ -1,0 +1,52 @@
+{
+  "categories": [
+    {
+      "category_id": 1,
+      "category_name": "Home Furnishing",
+      "category_icon": "1",
+      "trending": true
+    },
+    {
+      "category_id": 2,
+      "category_name": "Arts & Crafts",
+      "category_icon": "2",
+      "trending": true
+    },
+    {
+      "category_id": 3,
+      "category_name": "Kids and Baby",
+      "category_icon": "3",
+      "trending": true
+    },
+    {
+      "category_id": 4,
+      "category_name": "Clothing & Accessories",
+      "category_icon": "4",
+      "trending": true
+    },
+    {
+      "category_id": 5,
+      "category_name": "Real Estate",
+      "category_icon": "5",
+      "trending": true
+    },
+    {
+      "category_id": 6,
+      "category_name": "Automobile",
+      "category_icon": "6",
+      "trending": true
+    },
+    {
+      "category_id": 7,
+      "category_name": "Sports and Outdoor",
+      "category_icon": "7",
+      "trending": true
+    },
+    {
+      "category_id": 8,
+      "category_name": "Pets",
+      "category_icon": "8",
+      "trending": true
+    }
+  ]
+}

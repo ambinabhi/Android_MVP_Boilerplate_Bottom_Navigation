@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey">
+
+    <LinearLayout
+        android:id="@+id/ll_location"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="15dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/tv_current_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Bangalore, India"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/text_medium" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/ic_location" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_latest_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/vp_latest"
+        android:layout_below="@+id/ll_location"
+        android:text="Trending in your city"
+        android:textColor="@color/dark_grey"
+        android:textSize="@dimen/text_small" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_latest"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:layout_below="@+id/tv_latest_tag"
+        android:layout_margin="15dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_slider_dots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vp_latest"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_home_categories"
+        android:layout_below="@+id/ll_slider_dots"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

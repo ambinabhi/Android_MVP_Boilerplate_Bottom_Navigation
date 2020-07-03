@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "822958277006",
+    "firebase_url": "https://ttn-lora-9eeaa.firebaseio.com",
+    "project_id": "ttn-lora-9eeaa",
+    "storage_bucket": "ttn-lora-9eeaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822958277006:android:1617656c6843b2c4",
+        "android_client_info": {
+          "package_name": "com.oneday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "822958277006-14vp4dc4u6qld2osmlfaklhvbabefvn9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARS76TH7af8YnFGxzBo7ESLkF2LkS4biA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "822958277006-14vp4dc4u6qld2osmlfaklhvbabefvn9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
